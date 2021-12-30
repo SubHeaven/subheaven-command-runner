@@ -1,0 +1,31 @@
+{
+    "name": "subheaven-command-runner",
+    "version": "0.1.1",
+    "description": "A simple npm cli/tool project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "subheaven-command-runner": "./cli.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SubHeaven/subheaven-command-runner.git"
+    },
+    "author": {
+        "name": "SubHeaven",
+        "email": "subheaven.paulo@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SubHeaven/subheaven-command-runner/issues"
+    },
+    "homepage": "https://github.com/SubHeaven/subheaven-command-runner#readme",
+    "dependencies": {
+        "debug": "^4.3.1",
+        "subheaven-arg": "github:SubHeaven/subheaven-arg",
+        "subheaven-local-db": "github:SubHeaven/subheaven-local-db",
+        "subheaven-tools": "github:SubHeaven/subheaven-tools"
+    }
+}
