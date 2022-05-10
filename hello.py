@@ -53,12 +53,21 @@ def tratarArgs():
         return False
 
 if __name__ == "__main__":
-    contador = 0
     if tratarArgs():
         params['loop'] = int(params['loop'])
-        while contador < params['loop']:
-            contador += 1
-            print(params['mensagem'])
+        for c in range(params['loop']):
+            contador = c + 1
+            print(f"{str(contador).rjust(4, ' ')} - {params['mensagem']}")
             if params['erro']:
                 contador.teste()
             time.sleep(1)
+        # def processar(contador = 0):
+        #     contador += 1
+        #     print(f"{str(contador).rjust(4, ' ')} - {params['mensagem']}")
+        #     if params['erro']:
+        #         contador.teste()
+        #     time.sleep(1)
+        #     if contador < params['loop']:
+        #         processar(contador)
+        # processar()
+            

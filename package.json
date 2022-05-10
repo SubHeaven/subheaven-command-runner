@@ -1,6 +1,6 @@
 {
     "name": "subheaven-command-runner",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "A simple npm cli/tool project",
     "main": "index.js",
     "scripts": {
@@ -24,8 +24,11 @@
     "homepage": "https://github.com/SubHeaven/subheaven-command-runner#readme",
     "dependencies": {
         "debug": "^4.3.1",
-        "subheaven-arg": "github:SubHeaven/subheaven-arg",
-        "subheaven-local-db": "github:SubHeaven/subheaven-local-db",
-        "subheaven-tools": "github:SubHeaven/subheaven-tools"
+        "dharma-python-lib": "^0.0.1",
+        "mongo-to-sql-converter": "^1.1.2",
+        "sqlite3": "^5.0.8",
+        "subheaven-arg": "^0.2.6",
+        "subheaven-tools": "github:SubHeaven/subheaven-tools",
+        "uuid": "^8.3.2"
     }
 }
